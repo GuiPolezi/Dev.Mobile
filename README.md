@@ -74,7 +74,7 @@ Acompanhamento das solicitações de ajustes/correções nos aplicativos. O dese
 
 | Item | App / Tenant | Descrição | Desenvolvimento | Publicação | Status |
 |:---:|---|---|:---:|:---:|---|
-| **21** | Siscam9 / Itatiba | Correção do link de redirecionamento dos arquivos (PDF) — ajuste do `baseViewDocumentosUrl` com o caminho `/Siscam/` | ✅ Concluído | 🟡 v4.0.9 em análise nas lojas | **Aguardando aprovação Apple** |
+| **21** | Siscam9 / Itatiba | Correção do link de redirecionamento dos arquivos (PDF) — ajuste do `baseViewDocumentosUrl` com o caminho `/Siscam/` | ✅ Concluído | 🟢 v4.0.9 publicado nas lojas | **APROVADO** |
 
 **Legenda de status das solicitações:** 🔵 Em desenvolvimento &nbsp;•&nbsp; 🟡 Aguardando lojas &nbsp;•&nbsp; 🟢 Publicado/Concluído &nbsp;•&nbsp; 🔴 Bloqueado
 
@@ -86,7 +86,7 @@ Acompanhamento das solicitações de ajustes/correções nos aplicativos. O dese
 |---|:---:|:---:|---|
 | Paulo de Faria (Siscam8) | 🟡 Em análise | 🟡 Em análise | Primeira publicação enviada para revisão |
 | Santa Rosa de Viterbo (Siscam9) | 🔴 Bloqueado | 🔴 Bloqueado | Aguardando backend do cliente |
-| Itatiba (Siscam9) | 🟢 Publicado | 🟡 Em análise | Atualização v4.0.9 (ITEM 21) aguardando aprovação das lojas |
+| Itatiba (Siscam9) | 🟢 Publicado | 🟢 Publicado | Atualização v4.0.9 (ITEM 21) aguardando aprovação das lojas |
 
 **Legenda:** 🟢 Publicado &nbsp;•&nbsp; 🟡 Em análise/revisão &nbsp;•&nbsp; 🔵 Em desenvolvimento &nbsp;•&nbsp; 🔴 Bloqueado/pendente
 
