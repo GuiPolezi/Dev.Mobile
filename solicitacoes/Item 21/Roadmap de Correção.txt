@@ -51,7 +51,7 @@ Conclusão
 - Versão do app alterada para 4.0.9
 - Link itatiba ajustado
 
-Android - Aguardando revisao e analise de aprovação*
+Android - PUBLICADO*
 IOS - Aguardando revisao e analise de aprovação*
 
 
