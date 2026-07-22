@@ -1,0 +1,43 @@
+Publicando APP (Google e Android)
+
+https://santarosaviterbo9.siscam.com.br/
+
+
+Configurando API no siscam9
+- Testando API no postman https://santarosaviterbo9.siscam.com.br/api/Account/Login
+{
+  "username": "Mobile",
+  "password": "Mobil3*!@#"
+}
+
+Resultado 200 OK
+
+Atualizando build.config.json
+{
+  "nome": "Câmara Municipal Santa Rosa de Viterbo",
+  "scheme": "santarosadeviterbo",
+  "cidade": "Santa Rosa de Viterbo",
+  "Uf": "SP",
+  "idCliente": 147,
+  "isTenant": true,
+  "brasaoUrl": "https://santarosaviterbo9.siscam.com.br/Sistema/images/brasao.png",
+  "PolicyUrl": "https://sinoinformatica.com.br/politica-de-privacidade/camara-santarosadeviterbo/index.html",
+  "packageName": "br.com.sinoinformatica.processolegislativo.santarosadeviterbo",
+  "color": "#669bbc",
+  "baseUrl": "https://santarosaviterbo9.siscam.com.br/api/",
+  "baseViewDocumentosUrl": "https://santarosaviterbo9.siscam.com.br/"
+}
+
+
+- Rodando: 
+1. npm run sync-tenants
+2. npm run android
+
+
+
+Configurando Banco de Dados
+-------------------------
+Criando registros na tabela Configurações
+
+
+ESTOU COM PROBLEMAS AO ABRIR O APP. APARENTEMENTE PRECISA CRIAR TABELA NO BANCO EM CONFIGURAÇÕES. NAO CONSEGUI CORRIGIR AINDA
