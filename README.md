@@ -58,6 +58,11 @@ Dev.Mobile/
 │   ├── 📄 publicacao-ios.md      # Passo a passo consolidado (App Store)
 │   └── 📄 troubleshooting.md     # Erros comuns e soluções
 │
+│
+├── 📁 solicitacoes/
+│      Arquivos de desenvolvimento de solicitações para ajustes nos aplicativos
+│
+│
 └── 📄 README.md
 ```
 
