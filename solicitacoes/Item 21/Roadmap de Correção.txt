@@ -1,0 +1,57 @@
+Desenvolvimento da Correção
+
+1ª Etapa
+--------
+Validação do Erro
+
+O erro Persiste?
+- Caminho a ser feito para testar: Acessar Menu proposituras, clicar na indicação Nº 1353/2026 e tentar abrir o PDF
+
+# No android o Erro persiste? -> Sim (Baixar o PDF funciona. Mas clicar nele, redireciona para o link https://itatiba9.siscam.com.br/Documentos/Details?handler=Arquivo&id=166289) -> Link correto: https://itatiba9.siscam.com.br/Siscam/Documentos/Details?handler=Arquivo&id=166289
+
+
+
+# No IOS o erro persiste? -> Sim (Baixar o PDF funciona. Mas clicar nele, redireciona para o link https://itatiba9.siscam.com.br/Documentos/Details?handler=Arquivo&id=166289) -> Link correto: https://itatiba9.siscam.com.br/Siscam/Documentos/Details?handler=Arquivo&id=166289
+
+
+/ Desenvolvendo Correção
+--------------------------
+
+- Identificando se URL é obtida no codigo dinamicamente ou via banco de dados
+
+Em cada Tenant temos o build.config.json, nesse arquivo contem o registro "baseViewDocumentosUrl", nesse registro colocamos a url do SISCAM9, mas no caso de itatiba esta faltando adicionar /Siscam/ no final da url
+
+Corrigindo para "baseViewDocumentosUrl": "https://itatiba9.siscam.com.br/Siscam/",
+- Rodando npm run sync-tenants
+- Rodando npm run android para testar
+
+
+// Correção Feita e Funcionando
+
+// Pull Request Criado - Merge feito da Branch Gui-Polezi
+
+Fazendo:
+# 1. Confirme o tenant no .env
+cat .env | grep -i tenant
+# deve mostrar TENANT=Itatiba (ou EXPO_PUBLIC_TENANT=Itatiba)
+
+# 2. Confirme que está na master com a correção mergeada
+git branch --show-current
+git log -1 --oneline
+
+# 3. Sincronize os tenants (crítico — o script não faz isso sozinho)
+npm run sync-tenants
+
+# 4. Execute o deploy OTA
+bash build-and-publish-app-release.sh
+
+
+------------------
+Conclusão
+- Versão do app alterada para 4.0.9
+- Link itatiba ajustado
+
+Android - Aguardando revisao e analise de aprovação*
+IOS - Aguardando revisao e analise de aprovação*
+
+
