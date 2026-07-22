@@ -1,0 +1,1 @@
+Ao tentar ver algum arquivo pelo aplicativo não funciona, ele redireciona para uma página não encontrada.
