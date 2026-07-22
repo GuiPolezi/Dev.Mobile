@@ -17,7 +17,7 @@
 
 Este é meu repositório pessoal de estudos e acompanhamento das aplicações **mobile** da empresa, desenvolvidas em **React Native** com **Expo**, em uma arquitetura **multi-tenant** (um único código-fonte atendendo a múltiplos clientes).
 
-Aqui reúno anotações de processos, roadmaps de publicação, aprendizados técnicos e registros de problemas resolvidos — servindo tanto como diário de bordo quanto como referência rápida para o futuro.
+Aqui reúno anotações de processos, roadmaps de publicação, aprendizados técnicos, registros de problemas resolvidos e o acompanhamento de solicitações de ajustes nos aplicativos — servindo tanto como diário de bordo quanto como referência rápida para o futuro.
 
 > 💡 Este repositório é de uso pessoal/estudo. Não contém código-fonte de produção, credenciais ou dados sensíveis das aplicações da empresa.
 
@@ -32,6 +32,7 @@ Aqui reúno anotações de processos, roadmaps de publicação, aprendizados té
 | Estado global | Zustand |
 | Requisições HTTP | Axios |
 | Notificações | Firebase Cloud Messaging |
+| Atualizações OTA | Expo Updates (servidor próprio) |
 | Publicação Android | Gradle → Google Play Console |
 | Publicação iOS | Xcode → App Store Connect |
 | Automação (CI/CD) | Fastlane |
@@ -58,13 +59,24 @@ Dev.Mobile/
 │   ├── 📄 publicacao-ios.md      # Passo a passo consolidado (App Store)
 │   └── 📄 troubleshooting.md     # Erros comuns e soluções
 │
-│
 ├── 📁 solicitacoes/
-│      Arquivos de desenvolvimento de solicitações para ajustes nos aplicativos
-│
+│   ├── 📄 ITEM-21.txt            # Correção de link de arquivos (Itatiba)
+│   └── ...                       # Novas solicitações de ajustes nos apps
 │
 └── 📄 README.md
 ```
+
+---
+
+## 📋 Solicitações em andamento
+
+Acompanhamento das solicitações de ajustes/correções nos aplicativos. O desenvolvimento detalhado de cada uma fica registrado na pasta `solicitacoes/`.
+
+| Item | App / Tenant | Descrição | Desenvolvimento | Publicação | Status |
+|:---:|---|---|:---:|:---:|---|
+| **21** | Siscam9 / Itatiba | Correção do link de redirecionamento dos arquivos (PDF) — ajuste do `baseViewDocumentosUrl` com o caminho `/Siscam/` | ✅ Concluído | 🟡 v4.0.9 em análise nas lojas | **Aguardando aprovação Google e Apple** |
+
+**Legenda de status das solicitações:** 🔵 Em desenvolvimento &nbsp;•&nbsp; 🟡 Aguardando lojas &nbsp;•&nbsp; 🟢 Publicado/Concluído &nbsp;•&nbsp; 🔴 Bloqueado
 
 ---
 
@@ -72,8 +84,9 @@ Dev.Mobile/
 
 | App / Tenant | Android | iOS | Observações |
 |---|:---:|:---:|---|
-| Paulo de Faria | 🟡 Em análise | 🟡 Em análise | Enviado para revisão |
-| Santa Rosa de Viterbo | 🔴 Bloqueado | 🔴 Bloqueado | Aguardando backend do cliente |
+| Paulo de Faria (Siscam8) | 🟡 Em análise | 🟡 Em análise | Primeira publicação enviada para revisão |
+| Santa Rosa de Viterbo (Siscam9) | 🔴 Bloqueado | 🔴 Bloqueado | Aguardando backend do cliente |
+| Itatiba (Siscam9) | 🟡 Em análise | 🟡 Em análise | Atualização v4.0.9 (ITEM 21) aguardando aprovação das lojas |
 
 **Legenda:** 🟢 Publicado &nbsp;•&nbsp; 🟡 Em análise/revisão &nbsp;•&nbsp; 🔵 Em desenvolvimento &nbsp;•&nbsp; 🔴 Bloqueado/pendente
 
@@ -97,19 +110,43 @@ flowchart LR
 
 ---
 
+## 🔧 Fluxo de correções (solicitações)
+
+```mermaid
+flowchart LR
+    A[Solicitação recebida] --> B[Validar o erro localmente]
+    B --> C{Origem: código, config ou banco?}
+    C -- Config do tenant --> D[Ajustar build.config.json + sync-tenants]
+    C -- Banco/Backend --> E[Ajustar no servidor]
+    D --> F[Testar local]
+    E --> F
+    F --> G[Branch + PR + Merge]
+    G --> H[Bump de versão]
+    H --> I[Deploy Fastlane - internal]
+    I --> J[Validar no Teste Interno/TestFlight]
+    J --> K[Promover para Produção]
+    K --> L[🎉 Aprovação das lojas]
+```
+
+---
+
 ## 📌 Principais aprendizados registrados
 
 - Diferenças entre build **Debug** e **Release** (assinatura, performance, variáveis de ambiente)
-- Particularidades do Windows ao compilar builds Android (arquivos travados no Gradle)
+- Particularidades do Windows ao compilar builds Android (arquivos travados no Gradle, antivírus, processos Java pendentes)
 - iOS só pode ser buildado em **macOS** — necessidade de Xcode e CocoaPods
 - Boas práticas de segurança: nunca versionar `.env`, keystores ou chaves de API
 - Diferença entre configuração de **tenant (app)** e configuração de **backend (servidor)** — nem todo problema é resolvido só no código mobile
+- O **versionCode** precisa sempre ser incrementado antes de um novo envio às lojas (a Google Play rejeita códigos já utilizados)
+- **OTA vs. Loja**: correções somente de JS/config podem ir por OTA (minutos); mudanças nativas exigem novo binário e revisão das lojas (dias)
+- Sempre validar a **resposta real do servidor** em scripts de deploy — mensagens de "sucesso" do script podem ser enganosas
+- Manter a **versão no Git sincronizada com a versão publicada** nas lojas evita conflitos e erros de versionamento
 
 ---
 
 ## 🎯 Objetivo
 
-Manter um histórico organizado e consultável dos processos de build, configuração de tenants e publicação, evitando retrabalho e servindo como material de consulta para próximos clientes/apps.
+Manter um histórico organizado e consultável dos processos de build, configuração de tenants, publicação e solicitações de correções, evitando retrabalho e servindo como material de consulta para próximos clientes/apps.
 
 ---
 
