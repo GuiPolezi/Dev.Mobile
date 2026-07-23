@@ -85,7 +85,7 @@ Acompanhamento das solicitações de ajustes/correções nos aplicativos. O dese
 | App / Tenant | Android | iOS | Observações |
 |---|:---:|:---:|---|
 | Paulo de Faria (Siscam8) | 🟡 Em análise | 🟡 Em análise | Primeira publicação enviada para revisão |
-| Santa Rosa de Viterbo (Siscam9) | 🔴 Bloqueado | 🔴 Bloqueado | Aguardando backend do cliente |
+| Santa Rosa de Viterbo (Siscam9) | 🔵 Em desenvolvimento | 🔵 Em desenvolvimento | Configurando Publicação do app |
 | Itatiba (Siscam9) | 🟢 Publicado | 🟢 Publicado | Atualização v4.0.9 (ITEM 21) aguardando aprovação das lojas |
 
 **Legenda:** 🟢 Publicado &nbsp;•&nbsp; 🟡 Em análise/revisão &nbsp;•&nbsp; 🔵 Em desenvolvimento &nbsp;•&nbsp; 🔴 Bloqueado/pendente
