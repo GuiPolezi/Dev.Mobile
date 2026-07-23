@@ -79,3 +79,8 @@ Ainda estou com problemas em 1. Documentos Sessão.
 
 # Outra questão: Não esta aparecendo o assinante no "2. Assinar digitalmente"
 
+- VOU DEIXAR ASSIM POR ENQUANTO
+
+////
+
+FALTA PUBLICAR IOS E ANDROID
