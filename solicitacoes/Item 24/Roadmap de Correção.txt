@@ -1,0 +1,10 @@
+Desenvolvimento da Correção
+
+1ª Etapa
+--------
+Validação do Erro
+
+O erro Persiste?
+- Caminho a ser feito para testar: Abrir aplicativo, acessar Fale com Vereador e enviar formulário.
+
+Resultado:

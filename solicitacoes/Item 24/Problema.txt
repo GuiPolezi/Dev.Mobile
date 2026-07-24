@@ -1,0 +1,1 @@
+No aplicativo a opção Fale com vereador não funciona, ao tentar enviar ele da erro "Network Error"
