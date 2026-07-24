@@ -7,4 +7,29 @@ Validação do Erro
 O erro Persiste?
 - Caminho a ser feito para testar: Abrir aplicativo, acessar Fale com Vereador e enviar formulário.
 
-Resultado:
+(Observação: Os inputs não estão mostrando o texto escrito dentro. Ajustando a cor do texto)
+
+Resultado: O erro persiste
+
+
+// Correção
+---------------
+- Cores dos inputs text ajustados
+
+
+- Adicionando faleComUrl: "https://www.camaraitatiba.sp.gov.br/",
+(Adicionado dentro do Tenant itatiba /configApp.ts e /build.config.json)
+
+- Configurando Credenciais de email no banco
+Adicionando novas chaves 
+{
+  EmailSettings:SmtpHost
+EmailSettings:SmtpUser noreply-cmitatiba@sinoinformatica.com.br
+EmailSettings:SmtpPass
+EmailSettings:SmtpPort 587
+EmailSettings:From noreply-cmitatiba@sinoinformatica.com.br
+EmailSettings:UseSsl false
+
+
+
+### PROBLEMA ENCONTRADO: NÃO ESTA ENVIANDO PARA O VEREADOR PROPRIAMENTE DITO - ENVIOU, MAS APENAS PARA O EMAIL QUE EU INSERI NO FORMULARIO
