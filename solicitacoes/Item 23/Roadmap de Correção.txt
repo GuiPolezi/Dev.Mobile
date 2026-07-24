@@ -1,0 +1,29 @@
+Desenvolvimento da Correção
+
+1ª Etapa
+--------
+Validação do Erro
+
+O erro Persiste?
+- Caminho a ser feito para testar: Abrir aplicativo e ler nome do menu
+
+# Android e Ios
+- O nome ainda precisa ser alterado
+
+
+
+// Correção
+- Acessar banco de dados de Itatiba e mudar o registro na Tabela: Configurações
+------------------------------
+
+Mudando registros:
+- Mobile:Menu:7:NomePlural
+- Mobile:Menu:7:NomeSingular
+
+Alterando o valor para:
+- "Atas das Comissões
+
+
+// Conclusão
+# Reiniciar Portainer
+# Verificar se mudou.

@@ -1,0 +1,2 @@
+Alterar o título do menu que chama "Documentos de Sessão" para 
+"Atas das Comissões" 
