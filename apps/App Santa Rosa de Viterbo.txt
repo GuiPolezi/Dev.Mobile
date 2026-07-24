@@ -84,3 +84,53 @@ Ainda estou com problemas em 1. Documentos Sessão.
 ////
 
 FALTA PUBLICAR IOS E ANDROID
+
+
+Publicando APP siscam9 - Santa Rosa de Viterbo
+
+Android
+---------------
+Criando App - Google Play Console
+
+- Configurando APP:
+Url politica de Privacidade: https://sinoinformatica.com.br/politica-de-privacidade/camara-santarosadeviterbo/index.html
+
+Alguma parte do APP é Restrita: SIM
+- Login fornecido ao google: usuario=admin, senha=Admin@123
+
+
+Detalhes do app gerado
+
+- Readme.MD gerado contendo informações de dados solicitados pelo app;
+
+
+- Criando versão teste interno
+(Gerando aab)
+
+
+## AGUARDAR 1 HORA PARA PROPAGAÇÃO DO TESTE INTERNO
+https://play.google.com/apps/internaltest/4700548664439618248
+
+- TESTAR, VALIDAR E DEPOIS COMEÇAR PUBLICAÇÃO NO IOS
+- Teste interno funcionando; 
+
+- APLICATIVO ENVIADO PARA DISPONIBILIZAÇÃO (24/07/26)
+
+Iphone
+---------------
+Criando Bundle ID em developer.apple.com
+Criando app em appstoreconnect.apple.com
+
+- Obtendo capturas de tela Ipad e Iphone
+
+Configurando app
+- Gerando build para o app
+
+Realizando Teste interno
+# Funcionando
+
+---------------------------
+/// Conclusão
+-------------------
+- ANDROID ENVIADO PARA PUBLICAÇÃO (24/07/26)
+- IOS ENVIADO PARA PUBLICAÇÃO (24/07/26)
