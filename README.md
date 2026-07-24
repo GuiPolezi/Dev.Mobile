@@ -68,24 +68,12 @@ Dev.Mobile/
 
 ---
 
-## 📋 Solicitações em andamento
-
-Acompanhamento das solicitações de ajustes/correções nos aplicativos. O desenvolvimento detalhado de cada uma fica registrado na pasta `solicitacoes/`.
-
-| Item | App / Tenant | Descrição | Desenvolvimento | Publicação | Status |
-|:---:|---|---|:---:|:---:|---|
-| **21** | Siscam9 / Itatiba | Correção do link de redirecionamento dos arquivos (PDF) — ajuste do `baseViewDocumentosUrl` com o caminho `/Siscam/` | ✅ Concluído | 🟢 v4.0.9 publicado nas lojas | **APROVADO** |
-
-**Legenda de status das solicitações:** 🔵 Em desenvolvimento &nbsp;•&nbsp; 🟡 Aguardando lojas &nbsp;•&nbsp; 🟢 Publicado/Concluído &nbsp;•&nbsp; 🔴 Bloqueado
-
----
-
 ## ✅ Status dos apps acompanhados
 
 | App / Tenant | Android | iOS | Observações |
 |---|:---:|:---:|---|
 | Paulo de Faria (Siscam8) | 🟡 Em análise | 🟡 Em análise | Primeira publicação enviada para revisão |
-| Santa Rosa de Viterbo (Siscam9) | 🔵 Em desenvolvimento | 🔵 Em desenvolvimento | Configurando Publicação do app |
+| Santa Rosa de Viterbo (Siscam9) | 🟡 Em análise | 🟡 Em análise | App publicado — aguardando análise da Google Play e da App Store |
 | Itatiba (Siscam9) | 🟢 Publicado | 🟢 Publicado | Atualização v4.0.9 (ITEM 21) aguardando aprovação das lojas |
 
 **Legenda:** 🟢 Publicado &nbsp;•&nbsp; 🟡 Em análise/revisão &nbsp;•&nbsp; 🔵 Em desenvolvimento &nbsp;•&nbsp; 🔴 Bloqueado/pendente
