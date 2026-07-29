@@ -1,2 +1,38 @@
 Desenvolvimento da Correção
 
+Corrigindo conforme os tópicos
+
+1º - Botão TV Câmara
+- Alterar seu redirecionamento para: https://www.youtube.com/live/ACfa1WYd7OU?si=ovxb0W1k92ds7oua
+
+# Modificando registro na tabela do banco de dados: ID 405 - Tabela Configuracoes
+
+
+2º - Botão E-sic
+- Alterar o redirecionamento para: https://franca.sp.leg.br/esic/Cidadao
+
+# Modificando registro na tabela do banco de dados: ID 365 - Tabela Configuracoes
+
+
+3º - Adicionar Biografia de Vereador
+- No menu de vereadores, mais especificamente o detalhe do vereador, foi solicitado a adição da visualização da biografia do vereador.
+
+# Modificando códigos
+{ Arquivo: src/Functions/getVereadores.ts
+	Alteração: Consulta OData expande Campos filtrando o tipo "Histórico" (onde a 	biografia realmente mora); mapeado para politico.historico
+}
+
+{ Arquivo: src/Utils/htmlToText.ts
+	Alteração: Novo Arquivo criado — converte o HTML da biografia (com &eacute; 	etc.) em texto limpo com parágrafos
+}
+
+{ Arquivo: src/app/vereadores/[id].tsx
+	Alteração: Seção Biografia usa historico (fallback observacoes); botão "Ver 	mais" agora por comprimento do texto (>160 chars) em vez de onTextLayout, que 	não dispara na web
+}
+
+
+// Conclusão
+------------
+- Subindo Alterações no Gitea
+(Android: Subindo atualização para Loja)
+(IOS: Subindo atualização para Loja)
