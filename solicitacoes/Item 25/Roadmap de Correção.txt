@@ -9,3 +9,17 @@ Etapas
 - Alterar Logo da Página do aplicativo (Ios e Android)
 - Alterar Brasão no aplicativo
 - Alterar Brasão de Imagem do aplicativo
+
+
+# Obtendo novo brasão - Criado em 2022
+Obtido através do site oficial CM Itatiba
+
+==> Brasão dentro do aplicativo alterado.
+Mudando nas lojas para alterar a imagem do app
+
+(Android)
+- Alterações no android
+- Loja com novas imagens
+- Subindo alteração do codigo na loja (Deploy automatizado do Repositorio) ## EM ANDAMENTO
+
+## (Foi necessario alterar A versão do app no app.config.js para 4.1.0) ##

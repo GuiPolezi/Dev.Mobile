@@ -2,3 +2,4 @@ CM Itatiba
 ---------
 - Item 21
 - Item 23
+- Item 24
