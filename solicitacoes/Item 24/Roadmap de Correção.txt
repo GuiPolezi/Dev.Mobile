@@ -33,3 +33,16 @@ EmailSettings:UseSsl false
 
 
 ### PROBLEMA ENCONTRADO: NÃO ESTA ENVIANDO PARA O VEREADOR PROPRIAMENTE DITO - ENVIOU, MAS APENAS PARA O EMAIL QUE EU INSERI NO FORMULARIO
+
+
+Problema da Solicitação Item 24 encontrado. Ele esta no site-9 (sino.site.ui) dentro de services/EmailService.cs; Esse é o codigo que deve ser modificado para correções
+- Neste codigo estava marcado para enviar a um email fixo: suporte@sino...
+
+- Refatoramos o codigo deixando que envie para o vereador selecionado de fato
+
+
+// Conclusão
+- Correção feita no pacote Sino.Site.UI (Repositorio Site-9)
+- Subindo atualização Gitea
+- Atualizando Pacote no Repositorio Itatiba-9 (site)
+- Validando testes em produção
