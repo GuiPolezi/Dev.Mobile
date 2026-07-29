@@ -20,6 +20,20 @@ Mudando nas lojas para alterar a imagem do app
 (Android)
 - Alterações no android
 - Loja com novas imagens
-- Subindo alteração do codigo na loja (Deploy automatizado do Repositorio) ## EM ANDAMENTO
+- Subindo alteração do codigo na loja (Deploy automatizado do Repositorio)
 
 ## (Foi necessario alterar A versão do app no app.config.js para 4.1.0) ##
+
+FEITO, encaminhado para analise
+
+(IOS)
+- Fazendo Git pull para pegar projeto mais atualizado
+- Alterando Loja apple com novas imagens
+- Subindo alteração do codigo na loja (Deploy automatizado do Repositorio)
+
+FEITO, encaminhado para analise
+
+
+// Conclusão
+- Alterações Feitas
+- Aguardando Loja Confirmar Nova Versão app (4.0.10)
