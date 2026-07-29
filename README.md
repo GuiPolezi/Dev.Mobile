@@ -74,7 +74,7 @@ Dev.Mobile/
 |---|:---:|:---:|---|
 | Paulo de Faria (Siscam8) | 🟡 Em análise | 🟢 Publicado| Primeira publicação enviada para revisão |
 | Santa Rosa de Viterbo (Siscam9) | 🟡 Em análise | 🟡 Em análise | App publicado — aguardando análise da Google Play e da App Store |
-| Itatiba (Siscam9) | 🟢 Publicado | 🟢 Publicado | Atualização v4.0.9 (ITEM 21) aguardando aprovação das lojas |
+| Itatiba (Siscam9) | 🟢 Publicado | 🟢 Publicado | Atualização v4.0.10 (ITEM 25) aguardando aprovação das lojas |
 
 **Legenda:** 🟢 Publicado &nbsp;•&nbsp; 🟡 Em análise/revisão &nbsp;•&nbsp; 🔵 Em desenvolvimento &nbsp;•&nbsp; 🔴 Bloqueado/pendente
 
