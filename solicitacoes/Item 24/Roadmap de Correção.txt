@@ -46,3 +46,4 @@ Problema da Solicitação Item 24 encontrado. Ele esta no site-9 (sino.site.ui) 
 - Subindo atualização Gitea
 - Atualizando Pacote no Repositorio Itatiba-9 (site)
 - Validando testes em produção
+- Testes validados. Aplicativo Corrigido!!!
