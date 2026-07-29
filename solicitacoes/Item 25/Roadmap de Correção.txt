@@ -1,0 +1,11 @@
+Desenvolvimento da Correção
+
+Etapas
+-----------
+- Verificar se o Logo do aplicativo é Antigo mesmo
+-> É antigo.
+
+
+- Alterar Logo da Página do aplicativo (Ios e Android)
+- Alterar Brasão no aplicativo
+- Alterar Brasão de Imagem do aplicativo
