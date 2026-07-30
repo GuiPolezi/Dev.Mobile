@@ -1,0 +1,31 @@
+APP CM Santa Rosa de Viterbo 
+---------------------------
+
+Rejeitado nas lojas (30/07/26)
+
+IOS (Motivo) -> Deu erro ao tentar acessar o app "Não foi possivel conectar-se ao servidor"
+
+--- Resolução: Testando no Testflight se o app esta acessando e rodando no emulador
+
+Acho que encontrei o problema: De novo refizeram os dados do banco. Apagaram meus registros...
+
+
+Correção
+-----------
+- Grupo Serviços API criado novamente
+- Usuario Mobile criado
+- Aplicativo acessando!!!
+
+- Configurando Permissão Api/autores grupo Serviços API
+
+- Testando todos os menus APP.
+
+- Foi necessario configurar os registros mobile novamente
+
+- Testando assinatura digital
+
+
+
+// Conclusão
+Ios - Encaminhado para revisão
+Android - Encaminhado para Revisão
