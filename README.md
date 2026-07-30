@@ -72,10 +72,10 @@ Dev.Mobile/
 
 | App / Tenant | Android | iOS | Observações |
 |---|:---:|:---:|---|
-| Paulo de Faria (Siscam8) | 🟡 Em análise | 🟢 Publicado| Primeira publicação enviada para revisão |
-| Santa Rosa de Viterbo (Siscam9) | 🟡 Em análise | 🟡 Em análise | App publicado — aguardando análise da Google Play e da App Store |
-| Itatiba (Siscam9) | 🟡 Em análise | 🟢 Publicado | Atualização v4.0.10 (ITEM 25) aguardando aprovação das lojas |
-| CM Franca (Siscam9) | 🟡 Em análise | 🟡 Em análise | Atualização do app para v4.0.10 e adição de visualização da biografia de vereador |
+| Paulo de Faria (Siscam8) | 🟢 Publicado| | 🟢 Publicado| Primeira publicação enviada para revisão |
+| Santa Rosa de Viterbo (Siscam9) | 🔴 Bloqueado/pendente | 🔴 Bloqueado/pendente | App publicado — aguardando análise da Google Play e da App Store |
+| Itatiba (Siscam9) | 🟢 Publicado | 🟢 Publicado | Atualização v4.0.10 (ITEM 25) aguardando aprovação das lojas |
+| CM Franca (Siscam9) | 🟢 Publicado | 🟢 Publicado | Atualização do app para v4.0.10 e adição de visualização da biografia de vereador |
 
 **Legenda:** 🟢 Publicado &nbsp;•&nbsp; 🟡 Em análise/revisão &nbsp;•&nbsp; 🔵 Em desenvolvimento &nbsp;•&nbsp; 🔴 Bloqueado/pendente
 
