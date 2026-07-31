@@ -1,0 +1,16 @@
+Desenvolvimento para corrigir Parametrização
+--------------------------------------------
+
+
+Correção na Ordenação dos menus do aplicativo.
+- O registro no banco Mobile:Menu:x:Ordem não surte efeito. Alterar a numeração da ordem não ordena o menu.
+
+
+
+// Correção
+-----------
+Com Fable 5 - Claude Code
+
+- Alterando codigo em src/Services/menuService.ts
+
+A alteração foi na função mapMenu: adicionei um .sort() encadeado após o .map(), ordenando os itens pelo campo order (que vem do Mobile:Menu:N:Ordem do banco). Itens sem Ordem válida vão para o fim da lista.
