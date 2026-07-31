@@ -1,0 +1,11 @@
+Correção — Assinar Digitalmente (assinantes não apareciam / nome incorreto)
+
+A tela de Assinar Digitalmente carregava os certificados do usuário apenas no momento do login, mantendo-os persistidos no aparelho. Com isso, certificados e vínculos de assinante cadastrados no servidor depois do login não apareciam — nem os assinantes, nem as pendências de assinatura — até o usuário deslogar e logar novamente. Além disso, o campo "Assinante" exibia a descrição do certificado (ex.: "teste") em vez do nome do vereador.
+
+O que foi desenvolvido:
+
+1. Recarga automática dos certificados (assinardigitalmente/index.tsx): ao abrir a tela, o app busca os certificados atualizados na API (GET /Certificados) e atualiza o store — cadastros feitos no servidor passam a refletir imediatamente, sem novo login. Em caso de falha (ex.: sem rede), mantém a lista persistida.
+
+2. Nome real do assinante (getVereadores.ts + tela): nova função getAutoresNomes() consulta a API Autores pelos Ids dos certificados e o dropdown de assinantes passa a exibir o nome do autor/vereador (ex.: "Adalberto Gonini Júnior"), usando a descrição do certificado apenas como fallback.
+
+Sem alteração de backend — o problema no tenant Santa Rosa de Viterbo era, em parte, configuração (certificado ainda não anexado ao cadastro do autor) e, em parte, esses dois comportamentos do app. Mudanças 100% JavaScript, elegíveis para distribuição via OTA, sem novo build de loja.
