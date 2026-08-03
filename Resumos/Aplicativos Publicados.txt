@@ -2,3 +2,4 @@
 - Paulo de Faria (Android)
 - Att: Itatiba (IOS)
 - Att: Itatiba (Android)
+- Santa Rosa de Viterbo (IOS)
