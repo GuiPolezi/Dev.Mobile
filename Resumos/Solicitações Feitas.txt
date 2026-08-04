@@ -9,3 +9,8 @@ CM Itatiba
 CM Franca
 -------------
 Todas as alterações solicitadas pelo Samuel - CM Franca dia 23/07/26
+
+
+CM Botucatu
+-------------
+Alteração solicitada pelo alexandre. Correção de redirecionamento em PDF

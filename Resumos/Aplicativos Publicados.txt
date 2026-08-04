@@ -3,3 +3,7 @@
 - Att: Itatiba (IOS)
 - Att: Itatiba (Android)
 - Santa Rosa de Viterbo (IOS)
+- Att: Botucatu (IOS)
+- Att: Botucatu (Android)
+- Att: Franca (IOS)
+- Att: Franca (Android)

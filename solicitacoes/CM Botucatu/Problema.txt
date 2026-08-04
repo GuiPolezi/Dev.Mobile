@@ -1,0 +1,3 @@
+* Aplicativo *
+
+Corrigir redirecionamento para visualização dos pdfs.

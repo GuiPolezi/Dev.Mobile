@@ -1,0 +1,7 @@
+Desenvolvimento de Correção
+--------------------------
+
+
+Atualizar o tenant especifico em Build.config.js;
+
+Ajustar nesse arquivo o baseViewDocumentosUrl
