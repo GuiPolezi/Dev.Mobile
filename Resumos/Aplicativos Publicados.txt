@@ -7,3 +7,5 @@
 - Att: Botucatu (Android)
 - Att: Franca (IOS)
 - Att: Franca (Android)
+- Att: Guarulhos (IOS)
+- Att: Guarulhos (Android)

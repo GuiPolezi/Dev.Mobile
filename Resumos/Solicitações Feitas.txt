@@ -14,3 +14,8 @@ Todas as alterações solicitadas pelo Samuel - CM Franca dia 23/07/26
 CM Botucatu
 -------------
 Alteração solicitada pelo alexandre. Correção de redirecionamento em PDF
+
+
+CM Guarulhos
+-------------
+Correção solicitada pelo Alan. Disse que nao conseguia logar e se cadastar pelo app

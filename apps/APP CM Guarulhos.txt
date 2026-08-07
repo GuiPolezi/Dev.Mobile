@@ -1,0 +1,29 @@
+CM Guarulhos - APP
+---------------------
+Esse é um aplicativo que possui um repositorio distinto dos appSiscam (8 e 9). Camara de Guarulhos possui um projeto próprio para o desenvolvimento do aplicativo.
+
+Dia 06/08 o cliente Alan identificou um problema e solicitou correção.
+
+Problema: Identificamos que, tanto na plataforma iOS quanto na plataforma Android, não é possível realizar o login nem efetuar novos cadastros de usuários no aplicativo.
+
+
+
+// Analise de Erros
+-------------------
+1. Baixei o repositorio do Gitea https://gitea.sinoinformatica.com.br:8082/Mobile/CMGuarulhos
+2. Instalei as dependencias
+3. Rodando Aplicativo no Android Simulator
+4. Testando contexto de erro.
+
+----- Testes ---------
+- Criando conta através do botão Ouvidoria
+Resultado: Deu erro
+Verificando através de requisição no POSTMAN se o erro aparece
+
+
+// Desenvolvimento de correção
+- Aparentemente esta normal.
+- Realizando adição de Condicionais na src/functions/createAccount.ts
+
+// Publicando atualização
+- Gerando aab Android
