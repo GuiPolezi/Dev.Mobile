@@ -77,7 +77,7 @@ Dev.Mobile/
 | Itatiba (Siscam9) | 🟢 Publicado | 🟢 Publicado | Atualização v4.0.10 (ITEM 25) aguardando aprovação das lojas |
 | CM Franca (Siscam9) | 🟢 Publicado | 🟢 Publicado | Atualização do app para v4.0.10 e adição de visualização da biografia de vereador |
 | CM Botucatu (Siscam9) | 🟢 Publicado | 🟢 Publicado | Atualização do app para v18.0.0|
-| CM Guarulhos (Siscam8) | 🟢 Publicado | 🟢 Publicado | Atualização do app |
+| CM Guarulhos (Siscam8) | 🔵 Em desenvolvimento | 🔵 Em desenvolvimento | Atualização do app para V4.0.5 - Novas solicitações do cliente |
 
 **Legenda:** 🟢 Publicado &nbsp;•&nbsp; 🟡 Em análise/revisão &nbsp;•&nbsp; 🔵 Em desenvolvimento &nbsp;•&nbsp; 🔴 Bloqueado/pendente
 
