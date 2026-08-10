@@ -14,4 +14,20 @@ Instalando Dependencias
 Rodando aplicativo no emulador de Android
 Testando erro
 
-Resultado ->
+Resultado -> Realmente está com o link errado
+
+
+// Correção
+-------------
+Ajuste em código
+Arquivo: /src/Utils/Constants.ts
+
+Corrigido para: export const privacyPolicy = "https://sinoinformatica.com.br/privacidade";
+
+- Alterando versão do codigo em app.json => 1.1.40
+- Subindo commits na branch master.
+
+// Publicação
+-----------
+Atualizando Loja Android -> Encaminhado para Analise Loja
+Atualizando Loja Ios -> Encaminhado para Analise Loja
