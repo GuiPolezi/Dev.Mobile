@@ -1,0 +1,17 @@
+CM Campinas - APP
+---------------------
+Esse é um aplicativo que possui um repositorio distinto dos appSiscam (8 e 9). Camara de Campinas possui um projeto próprio para o desenvolvimento do aplicativo.
+
+Dia 07/08 o cliente Ezio Fagan identificou um problema e solicitou correção.
+
+Problema: O link da Política de Privacidade no aplicativo está quebrado, conforme anexo, favor verificar.
+
+
+// Analise de Erros
+-----------------
+Clonodando Repositorio - Git clone https://gitea.sinoinformatica.com.br:8082/Mobile/CMCampinas
+Instalando Dependencias
+Rodando aplicativo no emulador de Android
+Testando erro
+
+Resultado ->
